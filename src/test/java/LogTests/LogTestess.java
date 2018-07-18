@@ -37,7 +37,7 @@ public class LogTestess extends TestBasee{
 
 	}
 
-	@Ignore
+//	@Ignore
 	@Test(priority = 1, groups = "functest")
 	public void invalidUsernameTest() {
 		LognPagess loginPage = new LognPagess();

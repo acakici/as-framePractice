@@ -11,7 +11,7 @@ public class ConfigReader {
 	static {
 
 		try {
-			String path = "configuration.properties";
+			String path = "configframe.properties";
 			FileInputStream input = new FileInputStream(path);
 
 			configFile = new Properties();

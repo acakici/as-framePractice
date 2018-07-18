@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebOrders Automation Login Test">
+
+<test name="Login Test">
+<classes>
+
+<class name="LogTests.LogTestess">
+
+
+</class>
+
+
+
+
+</classes>
+
+
+
+</test>
+
+
+
+
+
+
+
+</suite>

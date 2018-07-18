@@ -2,6 +2,7 @@ package TestBasee;
 
 
 import java.sql.Driver;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -30,6 +31,8 @@ public class TestBasee {
 	public void setUp() {
 		driver = Driverr.getDriver();
 		driver.get(ConfigReader.getProperty("url"));
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().window().fullscreen();
 	}
 
 	@AfterMethod

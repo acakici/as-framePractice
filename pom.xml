@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.cbt</groupId>
-	<artifactId>parallel-multi-browser-testng-framework</artifactId>
+	<artifactId>as-frame-practice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
@@ -37,7 +37,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${runner}</suiteXmlFile>
+						<suiteXmlFile>testng-run.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
